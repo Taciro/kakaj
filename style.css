@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=IBM+Plex+Mono:wght@500&family=Roboto:wght@500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+body{
+    background: #F1F1F1;
+    margin: 0%;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+header{
+    background-color: #ffffff;
+    height: 110px;
+    width: 100%;
+    display: flex;
+}
+
+.links{
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+}
+
+.links2{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.links2 a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.links0 {
+    display: flex;
+    width: 65%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    color: var(--black, #121723);
+    font-family: Russo One;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.188%; 
+    letter-spacing: -2.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+    width: 300px;
+}
+
+.hr{
+    margin: 0;
+    width: 100%;
+	height: 1px;
+	border: none;
+    flex-shrink: 0;
+	border-top: 1px solid #A1A6B4;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 15%;
+    
+}
+
+.content h1{
+    color: var(--black, #121723);
+    font-family: IBM Plex Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.content_cards{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 0px solid var(--text_gray, #ffffff);
+}
+
+.card:hover{
+    box-shadow:10px 10px 13px 0px rgba(0, 0, 0, 0.25);;
+}
+
+
+.card_image{
+    width: 371px;
+    height: 254px;
+}
+
+.card_info{
+    width: 323px;
+    padding: 0px 24px;
+    border-radius: 12px;
+    background: var(--white, #ffffff);
+}
+
+.card_info a{
+    text-decoration: none;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+}
+
+.card_text_name{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+}
+
+.card_text_2name{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+}
+
+.niz{
+    background-color: #121723;
+    width: 100%;
+    height: 142px;
+    margin-top: 20px;
+}
+
+.totalniz h1{
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    
+}
+
+.nizlogo{
+    color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.188%;
+    letter-spacing: -1.55px;
+    margin: -40px 0px 0px 230px;
+}
+
+.nnn{
+    display: flex;
+}
+
+.nizter{
+    display: flex;
+}
+
+.nizfonlogo{
+    display: flex;
+    width: 410px;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    margin-left: 1060px;
+}
+
+.nizseti{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nizseti a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.h{
+    padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #E6E8EC66;
+    margin: 20px 230px;
+    width: 1160px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 411px) {
+    .content_cards{
+        display: grid;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .content{
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        flex-direction: column;
+        width: 80%;
+        padding: 0%;
+        margin-left: 2px;
+    }
+
+    .content h1{
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+    header{
+        display: flex;
+        width: 375px;
+        height: 150px;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .logo{
+        width: 215px;
+        height: 64px;
+        margin: 30px 0px 0px 80px;
+    }
+
+    .links{
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        margin-top: 10px;
+        margin: 10px 50px 0px 0px;
+        
+    }
+
+    .links2{
+        gap: 24px;
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+
+    .links0 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .hr{
+        margin: 0;
+        width: 100%;
+        height: 1px;
+        border: none;
+        flex-shrink: 0;
+        border-top: 1px solid #676B73;
+    }
+
+    .h{
+        padding: 0;
+        height: 1px;
+        border: none;
+        border-top: 1px solid #E6E8EC66;
+        margin: 50px 0px 0px 16px;
+        width: 343px;
+    }
+
+    .nizfonlogo{
+        gap: 24px;
+        margin-left: -75px;
+    }
+
+    .nizlogo{
+        color: var(--white, #FFF);
+        font-family: Russo One;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 78.188%;
+        letter-spacing: -1.55px;
+        margin: -75px 0px 0px 45px;
+    }
+
+    .nizseti{
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 55px 0px 0px 105px;
+    }
+
+    .niz{
+        height: 155px;
+    }
+
+    .totalniz h1{
+        margin: 15px 0px 0px 0px;
+    }
+}
